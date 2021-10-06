@@ -2,31 +2,28 @@
 
 int main()
 {
-    int n, i, p;
+    int n,p;
 
     // Input the array
     printf("Enter number of elements\n");
     scanf("%d", &n);
     int a[n];
     printf("Enter array elements\n");
-    for(i=0; i<n; i++)
+    p = 1;
+    for(int i=0; i<n; i++)
     {
         scanf("%d", &a[i]);
+        p *= a[i];
     }
 
     // Find output array
-    p = 1;
-    for(i=0; i<n; i++)
-    {
-        p *= a[i];
-    }
-    for(i=0; i<n; i++)
+    for(int i=0; i<n; i++)
     {
         a[i] = p / a[i];
     }
 
     // Print output array
-    for(i=0; i<n; i++)
+    for(int i=0; i<n; i++)
     {
         printf("%d\t", a[i]);
     }
