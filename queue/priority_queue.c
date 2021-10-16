@@ -1,4 +1,5 @@
 //Linked list implementation
+//This program is for implementation of priority queue in c using linked list
 #include <stdio.h>
 #include <stdlib.h>
 
