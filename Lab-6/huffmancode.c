@@ -1,3 +1,8 @@
+/*Huffman coding assigns variable length codewords to fixed length input characters
+based on their frequencies/probabilities of occurrence. Given an array of characters along
+with their frequency of occurrences. Write a menu driven programming to perform the
+following functions.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
