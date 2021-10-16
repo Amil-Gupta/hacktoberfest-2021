@@ -1,3 +1,7 @@
+/*Similar to above program no.5.1, write a menu driven program to sort an array of n
+integers in descending order by heap sort algorithm. Hints: Use min heap and
+accordingly change the menu options.*/
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
