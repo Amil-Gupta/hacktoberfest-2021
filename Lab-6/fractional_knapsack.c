@@ -1,3 +1,4 @@
+/*Write a program to implementation of Fractional Knapsack algorithm*/
 #include<stdio.h>
 #include<stdlib.h>
 
