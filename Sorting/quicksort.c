@@ -1,3 +1,4 @@
+//This program is for the implementation of quicksort in c
 # include <stdio.h>
 
 // to swap two numbers
